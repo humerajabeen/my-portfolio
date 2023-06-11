@@ -1,0 +1,62 @@
+h4{
+    color: var(--color-primary);
+}
+
+h4, h6{
+    text-align: center;
+}
+
+.arts{
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+#port{
+    background: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 2rem;
+    transition: var(--transition);
+    border: 1px solid transparent;
+}
+
+#port:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+}
+
+img{
+    border-radius: 1rem;
+}
+
+p{
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+.btn3{
+    color: var(--color-primary);
+}
+
+.btn3:hover{
+    background-color: var(--color-white);
+}
+.btn4{
+    background-color: var(--color-primary);
+    color: var(--color-bg-variant);
+}
+
+.btn3, .btn4{
+    border: 1px solid var(--color-primary);
+    padding: 0.7rem;
+    margin: 0.5rem;
+    border-radius: 0.4rem;
+}
+
+#portfolio{
+    margin-bottom: 2.5rem;
+}
+

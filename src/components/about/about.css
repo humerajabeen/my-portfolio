@@ -1,0 +1,49 @@
+h3, h6{
+    text-align: center;
+}
+h3{
+    color: var(--color-primary);
+}
+#about{
+    margin: 2rem;
+}
+
+.aboutme{
+    width: max-content;
+    height: 17.5rem;
+    border-radius: 1rem;
+    background: linear-gradient(45deg, transparent, var(--color-primary),transparent);
+}
+
+.picture{
+    transform: rotate(10deg);
+    transition: var(--transition);
+}
+
+.picture:hover{
+    transform: rotate(0);
+}
+.content{
+    display: flex;
+    margin: 3rem 3rem;
+    justify-content: space-evenly;
+}
+
+.art1, .art2, .art3{
+    height: 9rem;
+    padding: 1.5rem;
+    background-color: var(--color-bg-variant);
+    margin-top: 4rem;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+.art1:hover, .art2:hover, .art3:hover{
+    background-color: var(--color-primary-variant);
+    cursor: pointer;
+}
+
+.para{
+    margin-left: 6.5rem;
+    margin-right: 6.5rem;
+}

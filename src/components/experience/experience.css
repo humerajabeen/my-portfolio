@@ -1,0 +1,46 @@
+#exp{
+    text-align: center;
+    color: var(--color-primary);
+}
+
+#title1, #title2{
+    text-align: center;
+    color: var(--color-primary);
+    margin: 12px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+div .card1,div .card2{
+    background-color: var(--color-bg-variant);
+    width: 40%;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.in1, .in2{
+    margin: 0.5rem;
+}
+
+.cards h4{
+    color: var(--color-white);
+}
+
+#in{
+    display: flex;
+    margin: 0.8rem 0.8rem -0.4rem 0.8rem;
+    gap: 1rem;
+}
+
+small{
+    margin: 2.8rem;
+    color: var(--color-light);
+}
+
+.all_art{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

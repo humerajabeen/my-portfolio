@@ -1,0 +1,48 @@
+.cont{
+    display: flex;
+    gap: 5%;
+    margin-top: 1rem;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    text-align: center;
+    margin-left: 13.5rem;
+}
+
+.left1, .left2, .left3{
+    display: block;
+    border: 1px solid transparent;
+    margin: 1rem;
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: var(--color-bg-variant);
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 3rem;
+}
+#name, #email, #msg{
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.2rem;
+    background: transparent;
+    border: 1.3px solid var(--color-primary-variant);
+    resize: none;
+    color: var(--color-white);
+}
+
+#btn5{
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.2rem;
+    background-color: var(--color-primary);
+    width: 40%;
+    cursor: pointer;
+}
